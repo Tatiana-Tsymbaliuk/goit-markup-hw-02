@@ -1,6 +1,18 @@
-.body{
-  color: tomato;
+body{
+  font-family:"Roboto", sans-serif;
 }
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+
+/*-----------------------------header------------*/
+.header{
+  background-color: #FFFFFF;
+}
+
 .logo {
   font-family: 'Raleway';
     font-style: normal;
@@ -9,7 +21,34 @@
     line-height: 31px;
     /* identical to box height */
   
-    letter-spacing: 0.03em;
-  
+    letter-spacing: 0.03em; 
     color: #2196F3;
+}
+.logo-header{
+ color:black;
+}
+.logo-footer{
+  color: #FFFFFF;
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav-link:hover,.nav-link:focus{
+  color: #2196F3;
+}
+.heder-tel:hover,.heder-tel:focus{
+  color: #2196F3;
+}
+.heder-mail:hover,.header-mail:focus{
+  color: #2196F3;
+}
+
+.footer{
+  background-color: #2F303A;;
 }
