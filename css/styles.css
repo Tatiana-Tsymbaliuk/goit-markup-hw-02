@@ -78,6 +78,7 @@ body{
     color: #FFFFFF;
     cursor:pointer;
     background:#2196F3;
+    border-style: none;
 }
 .main-caption{
   font-weight: 900;
@@ -194,6 +195,7 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-style: none;
 
 }
 .btn-list:hover,
