@@ -1,5 +1,5 @@
 body{
-  font-family:"Roboto", sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 .list{
   list-style: none;
@@ -14,13 +14,11 @@ body{
 }
 
 .logo {
-  font-family: 'Raleway';
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    /* identical to box height */
-  
     letter-spacing: 0.03em; 
     color: #2196F3;
 }
@@ -31,8 +29,6 @@ body{
   color: #FFFFFF;
 }
 .nav-link{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -42,13 +38,129 @@ body{
 .nav-link:hover,.nav-link:focus{
   color: #2196F3;
 }
-.heder-tel:hover,.heder-tel:focus{
-  color: #2196F3;
+
+.heder-mail{
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    color: #757575;
+}
+.heder-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 .heder-mail:hover,.header-mail:focus{
   color: #2196F3;
 }
+.heder-tel:hover,.heder-tel:focus{
+  color: #2196F3;
+}
+/*-------------------------------main----------------------------*/
+.main-title{
+  background-color: #2F303A;
+}
+.main-btn:hover,.main-btn:focus{
+  border-color:white;}
+.main-btn{
+    
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor:pointer;
+    background:#2196F3;
 
+}
+.main-caption{
+  font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-subtitle{
+  display: none;
+}
+.maim-list-benefits{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16/14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.benefits-info{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24/14);
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.main-comand{
+  background-color: #F5F4FA;
+}
+.main-workers{
+  background-color: #FFFFFF;
+}
+.main-worker-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19/16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.main-worker-position{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19/16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*-------------------------------footer--------------------------*/
 .footer{
-  background-color: #2F303A;;
+  background-color: #2F303A;
+}
+.footer-addres{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.footer-mail{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-addres:hover,.footer-addres:focus{
+color: #2196F3;
+}
+.footer-mail:hover,.footer-mail:focus {
+  color: #2196F3;
+}
+
+.footer-tel:hover,.footer-tel:focus {
+  color: #2196F3;
 }
