@@ -23,7 +23,7 @@ body{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31/26);
     letter-spacing: 0.03em; 
     color:var(--activ-title-color);
 }
@@ -50,7 +50,7 @@ body{
   color: var(--activ-title-color);
 }
 .heder-mail{
-  font-weight: 500;
+  font-style: normal;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -58,7 +58,7 @@ body{
     color: #757575;
 }
 .heder-tel{
-  font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -120,11 +120,22 @@ body{
   color: var(--secondary-title-color);
 }
 .benefits-info{
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: #757575;
+}
+.our-work{
+    font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+}
+.our-comand{
+  font-size: 36px;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
 }
 .main-comand{
   background-color: #F5F4FA;
@@ -141,7 +152,6 @@ body{
   color: var(--secondary-title-color);
 }
 .main-worker-position{
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19/16);
   text-align: center;
@@ -153,27 +163,21 @@ body{
   background-color: #2F303A;
 }
 .footer-addres{
-  font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
 }
 .footer-mail{
-  font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel{
-  font-family: inherit;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -222,14 +226,12 @@ color: var(--activ-title-color);
 color:var(--main-title-color)
 }
 .list-cards{
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36/18);
   letter-spacing: 0.06em;
   color:var(--secondary-title-color);
 }
 .list-cards-name{
-   font-weight: 400;
     font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
