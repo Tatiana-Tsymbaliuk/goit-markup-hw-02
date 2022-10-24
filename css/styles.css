@@ -50,7 +50,7 @@ body{
   color: var(--activ-title-color);
 }
 .heder-mail{
-  font-style: normal;
+  
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -58,7 +58,7 @@ body{
     color: #757575;
 }
 .heder-tel{
-  font-style: normal;
+  
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -170,7 +170,7 @@ body{
   color: var(--main-title-color);
 }
 .footer-mail{
-  font-style: normal;
+ font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
